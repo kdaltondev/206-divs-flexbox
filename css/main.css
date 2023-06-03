@@ -108,11 +108,18 @@ body {
   height: 100%;
 }
 
+#intro-paragraph{
+    width:80%;
+    max-width:900px;
+    margin-bottom:40px;
+}
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
   display:flex;
   justify-content:space-between;
+  width:80%;
+  max-width:900px;
 }
 
 .div-1, .div-2, .div-3 {
@@ -120,14 +127,50 @@ body {
   display:flex;
   color: #fff;
   line-height: 1.2em;
-  font-size: .8em;
+  font-size: .8em;  
   background-color: navy;
   width:30%;
   justify-content:center;
   align-items:flex-start;
   padding:5px 20px;
-  margin:0 10px;
+  border:2px solid white;
 }
+
+footer{
+    margin-top:50px;
+}
+.div-half-first{
+    display:flex;
+    width:50%;
+    justify-content:flex-start;
+    align-items:flex-start;
+    padding:5px 20px;
+    flex-flow:column;
+}
+.div-half-second{
+    display:flex;
+    width:50%;
+    justify-content:flex-start;
+    align-items:flex-end;
+    padding: 5px 20px;
+    flex-flow:column;
+}
+.copyright{
+    font-size:.6em;
+    text-align:center;
+    max-width:900px;
+}
+footer h2{
+    font-size:1em;
+    margin:0;
+}
+
+footer p, a{
+    font-size:.8em;
+    margin:0;
+}
+
+
 
 
 
